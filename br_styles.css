@@ -13,3 +13,44 @@
 
 */
 
+/* HTML Styles */
+html {
+    background-image: url(br_paper.png); 
+}
+
+
+/* Body Header Styles */  
+body {
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+header img{
+    display: block;
+    width: 100%;
+}
+header > nav {
+    display: table;
+    width: 100%;
+    margin-bottom: 5px;
+}
+nav > ul {
+    display: table-row;
+}
+header > nav > ul > li{
+    display: table-cell;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+#Paragraph1 {
+    border: 2px solid white; 
+}
+
+#Paragraph2 {
+    border: 2px solid white; 
+}
+
