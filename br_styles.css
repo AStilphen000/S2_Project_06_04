@@ -15,7 +15,7 @@
 
 /* HTML Styles */
 html {
-    background-image: url(br_paper.png); 
+    background-image: url(br_paper.png);
 }
 
 
@@ -24,7 +24,7 @@ body {
     min-width: 640px;
     max-width: 960px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto
 }
 
 header img{
@@ -46,21 +46,24 @@ header > nav > ul > li{
     padding-bottom: 10px;
 }   
 
-p { padding: 50px; }
-#left { 
-    position: absolute; left: 0; top: 20; width: 50%; 
-    border-width: 2px;
-    border-color: blue;
-    border-radius: 10px; 
-    border-left: 1px solid rgb(51, 51, 51);
-    border-style: solid; 
 
-}
-#right { 
-    position: absolute; right: 0; top: 5; width: 50%; 
-}
-
-#blueBorder {
+#left {
     border: 2px solid blue; 
+    border-radius: 30px;
+    float: left;
+    width: 400px; 
+    padding: 20px;
+    height: 275px;
 }
+
+#right {
+    border: 2px solid blue; 
+    border-radius: 30px;
+    float: right;
+    width: 400px; 
+    padding: 20px;
+    height: 275px;
+}
+
+.img1 
 
