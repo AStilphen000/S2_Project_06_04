@@ -65,5 +65,39 @@ header > nav > ul > li{
     height: 275px;
 }
 
-.img1 
+#left {
+    border: 4px double rgb(57, 117, 117);
+    border-radius: 30px;
+    box-shadow: rgba(27, 66, 99, 0.4) 0px 0px 20px 10px; 
+    background: radial-gradient(white, rgb(151, 217, 222), rgb(57, 117, 117));
+}
+
+#right {
+    border: 4px double rgb(57, 117, 117);
+    border-radius: 30px;
+    box-shadow: rgba(27, 66, 99, 0.4) 0px 0px 20px 10px; 
+    background: radial-gradient(white, rgb(151, 217, 222), rgb(57, 117, 117));
+}
+
+#topNav {
+    text-shadow: 1px 1px lightblue;
+}
+
+#blueBorder {
+padding: 50px;
+}
+
+div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 7px;
+    padding-bottom: 50px;
+    padding-left: 7px;
+}
+  
+img {
+    border-radius: 8px;
+    padding-top: 10px;
+}
 
